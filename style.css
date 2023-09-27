@@ -139,3 +139,45 @@ nav .navigation ul li a:hover {
   color: rgb(21, 21, 100);
   background: #fff;
 }
+
+/* features */
+
+#features {
+  padding: 5vw 8vw 0 8vw;
+  text-align: center;
+}
+
+/* กำหนดการจัดแสดงคอลัมน์ของกริด เพื่อสร้างคอลัมน์ที่ซ้ำๆ เป็น responsive ด้วย */
+#features .fea-base {
+  display: grid;
+  /* 
+  auto-fit: ใช้ในการปรับจำนวนคอลัมน์ให้พอดีกับความกว้างของคอนเทนเนอร์โดยอัตโนมัติ
+  minmax(320px, 1fr): สร้างคอลัมน์ที่มีความกว้างอย่างน้อย 320px และมากที่สุดเท่ากับ 1fr
+  */
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1rem;
+  margin-top: 50px;
+}
+
+#features .fea-box {
+  background: #f9f9ff;
+  text-align: start;
+}
+
+#features .fea-box i {
+  font-size: 2.3rem;
+  color: rgb(44, 44, 80);
+}
+
+#features .fea-box h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(46, 46, 59);
+  padding: 13px 0 7px 0;
+}
+#features .fea-box h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgb(70, 70, 87);
+  padding: 13px 0 7px 0;
+}
