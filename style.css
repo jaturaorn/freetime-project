@@ -45,6 +45,7 @@ nav {
   align-items: center;
   padding: 1vw 8vw;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+  z-index: 999;
 }
 
 nav img {
@@ -185,7 +186,7 @@ nav .navigation ul li a:hover {
 /* course */
 
 #course {
-  padding: 8vw 8vw 0 8vw;
+  padding: 8vw 8vw 8vw 8vw;
   text-align: center;
 }
 
@@ -319,7 +320,7 @@ nav .navigation ul li a:hover {
 /* experts */
 
 #experts {
-  padding: 8vw 8vw 0 8vw;
+  padding: 8vw 8vw 8vw 8vw;
   text-align: center;
 }
 
@@ -444,4 +445,15 @@ footer .copyright .pro-links i:hover {
 
 footer .copyright p {
   color: #fff;
+}
+
+/* Medium size screen */
+
+@media (max-width: 769px) {
+  nav {
+    padding: 15px 20px;
+  }
+  nav img {
+    width: 130px;
+  }
 }
