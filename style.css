@@ -646,6 +646,7 @@ footer .copyright p {
   }
 
   /* About-Hero */
+
   #about-container {
     padding: 8vw 4vw 2vw 4vw;
   }
@@ -678,6 +679,42 @@ footer .copyright p {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  /* About-Hero */
+
+  #about-container {
+    flex-direction: column-reverse;
+  }
+
+  #about-container .about-img {
+    width: 100%;
+    padding-right: 0px;
+  }
+
+  #about-container .about-text {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  #trust .trust-img {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  #trust .trust-img img {
+    width: 60px;
+    margin: 10px 15px;
+    height: auto;
+  }
+}
+
+@media (max-width: 376px) {
+  footer input {
+    width: 100%;
     margin-bottom: 20px;
   }
 }
