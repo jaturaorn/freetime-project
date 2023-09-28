@@ -616,7 +616,15 @@ footer .copyright p {
 
 /* Post-Page */
 
-#blog-container
+#blog-container .blogpost {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#blog-container .blogpost p {
+  text-align: justify;
+  padding-bottom: 60px !important;
+}
 
 /* Medium Device screen */
 
