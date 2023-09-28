@@ -614,6 +614,10 @@ footer .copyright p {
   line-height: 45px;
 }
 
+/* Post-Page */
+
+#blog-container
+
 /* Medium Device screen */
 
 @media (max-width: 769px) {
