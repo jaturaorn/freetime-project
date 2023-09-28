@@ -721,9 +721,7 @@ footer .copyright p {
   /* Blog */
 
   #blog-container {
-    padding: 4vw 2vw;
-    justify-content: flex-start;
-    gap: 20px;
+    padding: 6vw 4vw;
   }
 }
 
@@ -774,6 +772,20 @@ footer .copyright p {
     width: 60px;
     margin: 10px 15px;
     height: auto;
+  }
+
+  /* Blog */
+
+  #blog-container {
+    flex-direction: column;
+  }
+
+  #blog-container .blogs {
+    width: 100%;
+  }
+
+  #blog-container .cate {
+    width: 100%;
   }
 }
 
