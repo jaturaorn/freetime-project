@@ -644,6 +644,21 @@ footer .copyright p {
   footer .copyright .pro-links {
     margin-top: 15px;
   }
+
+  /* About-Hero */
+  #about-container {
+    padding: 8vw 4vw 2vw 4vw;
+  }
+  #about-container .about-img {
+    padding-right: 30px;
+  }
+  #about-container .about-text {
+    padding: 30px;
+  }
+  #trust .trust-img img {
+    width: 60px;
+    height: auto;
+  }
 }
 
 /* Small Device screen */
