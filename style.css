@@ -538,6 +538,25 @@ footer .copyright p {
   color: #29303b;
 }
 
+/* Trust Feature */
+
+#trust {
+  text-align: center;
+  padding: 8vw;
+}
+
+#trust .trust-img {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#trust .trust-img img {
+  width: 90px;
+  height: auto;
+}
+
 /* Medium Device screen */
 
 @media (max-width: 769px) {
