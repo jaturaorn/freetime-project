@@ -1055,6 +1055,16 @@ footer .copyright p {
   #course-inner .enroll {
     margin-top: 25px;
   }
+
+  /* Contact */
+
+  #contact {
+    padding: 8vw 4vw;
+  }
+
+  #contact .getin {
+    width: 250px;
+  }
 }
 
 /* Small Device screen */
